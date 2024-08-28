@@ -13,7 +13,6 @@ def protect_file(file_name, password):
 
 files = os.listdir("src")
 pdf_files = [file for file in files if file.endswith(".pdf")]
-password = "my_password"  # Define your password
+password = "Abracadabra"
 for pdf_file in pdf_files:
-    print(pdf_file)
     protect_file(pdf_file, password)
